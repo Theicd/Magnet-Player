@@ -1,15 +1,9 @@
 {
-  "name": "magnet-player",
+  "name": "magnet-player-web",
   "version": "0.1.0",
-  "description": "נגן מינימלי להזנת קישורי magnet וניגון וידאו",
-  "main": "app.js",
-  "scripts": {
-    "start": "electron ."
-  },
+  "description": "נגן מגנט וובי טהור דרך WebTorrent CDN",
+  "private": true,
+  "scripts": {},
   "author": "HearthPlay Minimal",
-  "license": "MIT",
-  "dependencies": {
-    "electron": "^30.0.0",
-    "webtorrent": "^1.9.7"
-  }
+  "license": "MIT"
 }
